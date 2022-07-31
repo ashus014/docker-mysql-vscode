@@ -23,3 +23,4 @@ CREATE TABLE conversation (
     employer_id INT,
     message TEXT NOT NULL
 );
+
