@@ -15,3 +15,7 @@ SELECT * FROM sales
 ORDER BY volume DESC
 LIMIT 5
 OFFSET 3; -- 4th & 5th record would be shown
+
+-- Getting customer names
+
+SELECT DISTINCT(customer_name) FROM sales;
